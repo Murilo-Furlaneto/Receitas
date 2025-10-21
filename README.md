@@ -49,8 +49,6 @@ O projeto segue o padrão de arquitetura **MVVM (Model-View-ViewModel)**, garant
 -   [ ] Adicionar uma tela de "Favoritos" com persistência local (usando Room Database).
 -   [ ] Criar testes unitários para os ViewModels e Repositórios.
 -   [ ] Adicionar animações para melhorar a experiência do usuário.
--   [ ] Implementar paginação na busca de receitas para otimizar o carregamento.
-
 ## Contribuição
 
 Contribuições são muito bem-vindas! Sinta-se à vontade para abrir *issues*, sugerir melhorias ou enviar *pull requests*.
