@@ -14,4 +14,9 @@ interface ApiService {
         @Path("categoria") categoria: String,
         @Query("page") page: Int
     ): List<Receita>
+
+    @GET("receitas/descricao")
+    suspend fun obterReceitasPorNome(
+        @Query("descricao") nome: String,
+    ): RespostaPaginada<Receita>
 }

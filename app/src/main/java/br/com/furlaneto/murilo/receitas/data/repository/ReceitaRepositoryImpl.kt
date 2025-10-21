@@ -15,6 +15,10 @@ import jakarta.inject.Inject
         override suspend fun obterReceitasPorCategoria(categoria: String, page: Int): List<Receita> {
             return apiService.obterReceitasPorCategoria(categoria, page)
         }
+
+        override suspend fun obterReceitasPorNome(nome: String): RespostaPaginada<Receita> {
+            return apiService.obterReceitasPorNome(nome)
+        }
     }
 
 

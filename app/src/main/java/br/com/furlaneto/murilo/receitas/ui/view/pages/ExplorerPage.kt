@@ -53,6 +53,7 @@ fun ExplorerPage(
 
     ) { innerPadding ->
         LazyColumn(modifier = Modifier.padding(innerPadding).padding(16.dp)) {
+
             items(receitasState.value) { receita ->
                 ReceitaCard(receita = receita) {
                     val receitaJson = Uri.encode(receitaAdapter.toJson(receita))
